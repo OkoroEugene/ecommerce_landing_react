@@ -1,0 +1,100 @@
+
+@font-face {
+    font-family: 'AvenirNextLTPro-Regular';
+    src: url('./fonts/AvenirNextLTPro-Regular.otf') format('woff');
+  }
+
+  body{
+      font-family: 'AvenirNextLTPro-Regular'!important;
+      font-size: 12px;
+  }
+
+  .textBold{
+      font-weight: bold;
+  }
+
+  .sidebar-menu .list-group-item.active:first-child {
+      border-radius: 0!Important;
+      background-color: #4FA748;
+      border-color: #4FA748;
+  }
+
+  .sidebar-menu .list-group-item:last-child {
+    border-radius: 0!Important;
+}
+
+.sidebar-menu .list-group-item {
+    border-radius: 0!Important;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 0 0 rgba(0,0,0,0.23);
+}
+
+  .card0{
+    border-radius: 0!Important;  
+    box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 0 0 rgba(0,0,0,0.23);
+  }
+
+  .form-control{
+      border-radius: 0;
+      height: 45px;
+      font-size: 12px;
+  }
+
+  .coverProduct {
+    object-fit: cover;
+    width: 90%;
+    height: 250px;
+    border-radius: 0;
+}
+
+.price0 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.btn0{
+    border-radius: 0;
+    background-color: #F3D347;
+    font-size: 12px;
+    color: white;
+    border-color:  #F3D347;
+    width: 80px;
+}
+
+.cardHead0{
+    font-weight: bold;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.oldPrice {
+    color: #9E9FA0;
+}
+
+.navIcon{
+    font-size: 10px;
+    position: relative;
+    bottom: 6px;
+    color: #9E9FA0;
+}
+
+.footer0 {
+    height: 240px;
+    background-color: #373A3C; 
+    margin-top: 100px;
+    padding: 80px;
+    display: flex;
+}
+
+.footerContent {
+    width: 100%;
+}
+
+ul li {
+    list-style: none;
+    /* display:  */
+}
+
+.starRating0 {
+    padding: 3px 0 3px 0;
+}
