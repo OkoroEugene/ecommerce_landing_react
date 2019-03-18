@@ -16,7 +16,7 @@ var environment = process.env.NODE_ENV === 'production' ? 'production' : 'develo
 module.exports = {
     entry: './src/index.js',
     plugins: [
-        new CleanWebpackPlugin(['dist']),
+        new CleanWebpackPlugin(['../public']),
         new webpack.DefinePlugin({
             'API_URL': API_URL[environment]
         })
