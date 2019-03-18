@@ -109,14 +109,17 @@ export default class Body extends React.Component {
                         <Col sm={2}>
                             <Row>
                                 <Col style={{ textAlign: "center" }}>
+                                    <div className="redDot0"></div>
                                     <i className="fa fa-shopping-cart" style={{ fontSize: 25 }}></i>
                                     <p><span className="navIcon">cart</span></p>
                                 </Col>
                                 <Col style={{ textAlign: "center" }}>
+                                    <div className="redDot1"></div>
                                     <i className="fa fa-heart" style={{ fontSize: 25 }}></i>
                                     <p><span className="navIcon">cart</span></p>
                                 </Col>
                                 <Col style={{ textAlign: "center" }}>
+                                    <div className="redDot1"></div>
                                     <i className="fa fa-bell" style={{ fontSize: 25 }}></i>
                                     <p><span className="navIcon">cart</span></p>
                                 </Col>

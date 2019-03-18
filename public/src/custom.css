@@ -98,3 +98,29 @@ ul li {
 .starRating0 {
     padding: 3px 0 3px 0;
 }
+
+.redDot0 {
+    width: 7px;
+    height: 7px;
+    border-radius: 5px;
+    background-color: #FF1F1F;
+    position: absolute;
+    right: 26px;
+}
+
+.redDot1 {
+    width: 7px;
+    height: 7px;
+    border-radius: 5px;
+    background-color: #FF1F1F;
+    position: absolute;
+    right: 20px;
+}
+/* 
+#basic-navbar-nav {
+    display: block !important;
+}
+
+.navbar-expand-lg .navbar-nav {
+    justify-content: flex-end !important;
+} */
