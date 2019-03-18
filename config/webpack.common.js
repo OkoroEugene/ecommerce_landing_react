@@ -8,8 +8,8 @@ const webpack = require('webpack');
 
 // this config can be in webpack.config.js or other file with constants
 var API_URL = {
-    production: JSON.stringify('https://laundryapp-api.herokuapp.com'),
-    development: JSON.stringify('http://localhost:9000')
+    production: JSON.stringify(''),
+    development: JSON.stringify('')
 }
 
 var environment = process.env.NODE_ENV === 'production' ? 'production' : 'development';
